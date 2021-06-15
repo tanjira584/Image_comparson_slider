@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 50%;
+	margin: 80px auto;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+}
+.img-container {
+	position: relative;
+	width:600px;
+	height: 300px;
+}
+.img-com-img {
+	position:absolute;
+	overflow:hidden;
+}
+.compare-btn {
+	position:absolute;
+	width:50px;
+	height:50px;
+	background:#0066ff;
+	border-radius:50%;
+	cursor:ew-resize;
+	z-index:9999;
+	opacity:0.6;
+}
